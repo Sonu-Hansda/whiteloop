@@ -21,6 +21,7 @@ function Hero() {
                 <p>Learn More</p>
                 </button>
             </div>
+            <img className="mt-8" src="https://framerusercontent.com/images/Qs4fMRAik4VFOt3fiZeT875RV4.png" alt="What we do images" />
         </div>
     )
 }
