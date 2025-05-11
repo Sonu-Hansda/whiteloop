@@ -1,3 +1,4 @@
+import Features from "./components/Features"
 import Hero from "./components/Hero"
 import Insight from "./components/Insight"
 import Integration from "./components/Integration"
@@ -13,6 +14,7 @@ function App() {
      <Partners/>
      <Integration/>
      <Insight/>
+     <Features/>
     </main>
   )
 }
