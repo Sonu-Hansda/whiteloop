@@ -1,4 +1,5 @@
 import Features from "./components/Features"
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Insight from "./components/Insight"
 import Integration from "./components/Integration"
@@ -17,6 +18,7 @@ function App() {
      <Insight/>
      <Features/>
      <Pricing/>
+     <Footer/>
     </main>
   )
 }
