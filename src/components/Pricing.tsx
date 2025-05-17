@@ -1,7 +1,6 @@
 import { useState } from "react"
-import { BsGraphUpArrow } from "react-icons/bs"
 import { FaCrown } from "react-icons/fa6"
-import { PiFire, PiHandshake, PiPlugLight } from "react-icons/pi"
+import { PiFire } from "react-icons/pi"
 import { RiUploadCloud2Fill } from "react-icons/ri"
 
 function Pricing() {
