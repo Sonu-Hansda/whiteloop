@@ -10,7 +10,7 @@ import Pricing from "./components/Pricing"
 function App() {
 
   return (
-    <main className="text-[16px] py-4 px-12">
+    <main className="text-[16px] py-4 md:px-12">
      <Navbar/>
      <Hero/>
      <Partners/>
