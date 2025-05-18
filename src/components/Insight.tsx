@@ -5,7 +5,7 @@ import Chips from "./Chips"
 
 function Insight() {
     return (
-        <div className="p-0 rounded-2xl text-center">
+        <div className="p-0 rounded-2xl text-center mb-12">
             <button className="flex mx-auto items-center justify-center bg-white rounded-2xl px-4 py-2 border border-gray-300 gap-x-1.5 mb-4">
                 <BiSolidSearchAlt2 />
                 <span className="text-sm">Live Oversight</span>
@@ -33,19 +33,41 @@ function Insight() {
                 </div>
             </div>
             <div className="p-4 relative">
+
+                <div className="overflow-hidden whitespace-nowrap py-2">
+                    <div className="flex space-x-8 animate-scroll-left-right">
+                        {/* First copy */}
+                        <Chips text={'Personalize Engagement'} />
+                        <Chips text={'Realtime Reports'} />
+                        <Chips text={'Seamless Integrations'} />
+                        <Chips text={'Customer Retention'} />
+
+                        {/* Second copy (duplicate) */}
+                        <Chips text={'Personalize Engagement'} />
+                        <Chips text={'Realtime Reports'} />
+                        <Chips text={'Seamless Integrations'} />
+                        <Chips text={'Customer Retention'} />
+                    </div>
+                </div>
+
+                <div className="overflow-hidden whitespace-nowrap py-8">
+                    <div className="flex space-x-8 animate-scroll-right-left">
+                        {/* First copy */}
+                        <Chips text={'Cost Effective'} />
+                        <Chips text={'Smart Spending'} />
+                        <Chips text={'Data-Driven Decisions'} />
+                        <Chips text={'Increased Efficiency'} />
+
+                        {/* Second copy (duplicate) */}
+                        <Chips text={'Cost Effective'} />
+                        <Chips text={'Smart Spending'} />
+                        <Chips text={'Data-Driven Decisions'} />
+                        <Chips text={'Increased Efficiency'} />
+                    </div>
+                </div>
+
+                {/* Gradients */}
                 <div className="absolute left-0 top-0 h-full w-32 bg-gradient-to-r from-[#e2e7ea] to-transparent"></div>
-                <div className="flex space-x-8 mb-4">
-                    <Chips text={'Personalize Engagement'} />
-                    <Chips text={'Realtime Reports'} />
-                    <Chips text={'Seamless Integrations'} />
-                    <Chips text={'Customer Retention'} />
-                </div>
-                <div className="flex justify-end space-x-8">
-                    <Chips text={'Cost Effective'} />
-                    <Chips text={'Smart Spending'} />
-                    <Chips text={'Data-Driven Decisions'} />
-                    <Chips text={'Increased Efficiency'} />
-                </div>
                 <div className="absolute right-0 top-0 h-full w-32 bg-gradient-to-l from-[#e2e7ea] to-transparent"></div>
             </div>
         </div>

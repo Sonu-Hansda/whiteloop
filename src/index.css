@@ -11,3 +11,21 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@keyframes scroll-left-right {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes scroll-right-left {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.animate-scroll-left-right {
+  animation: scroll-left-right 15s linear infinite;
+}
+
+.animate-scroll-right-left {
+  animation: scroll-right-left 15s linear infinite;
+}
