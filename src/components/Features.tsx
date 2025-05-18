@@ -6,7 +6,7 @@ import { SiMoleculer } from "react-icons/si"
 
 function Features() {
   return (
-     <div className="bg-[#d8dfe5] p-8 rounded-2xl text-center mb-8">
+     <div className="bg-[#d8dfe5] p-8 rounded-2xl text-center mb-12">
             <button className="flex mx-auto items-center justify-center bg-white rounded-2xl px-4 py-2 border border-gray-300 gap-x-1.5">
                 <RiUploadCloud2Fill/>
                 <span className="text-sm">Effortless Deployment</span>
