@@ -5,16 +5,16 @@ import Chips from "./Chips"
 
 function Insight() {
     return (
-        <div className="px-4 rounded-2xl text-center mb-12">
+        <div className="px-4 rounded-2xl text-center mb-12 animate-container">
             <button className="flex mx-auto items-center justify-center bg-white rounded-2xl px-4 py-2 border border-gray-300 gap-x-1.5 mb-4">
                 <BiSolidSearchAlt2 />
                 <span className="text-sm">Live Oversight</span>
             </button>
             <div className="mb-8">
-                <p className="text-4xl md:text-5xl mb-3">Comprehensive Insights</p>
-                <p className="text-lg">Track every campaign and customer interaction to refine engagement strategies</p>
+                <p className="text-4xl md:text-5xl mb-3 animate-child">Comprehensive Insights</p>
+                <p className="text-lg animate-child">Track every campaign and customer interaction to refine engagement strategies</p>
             </div>
-            <div className="grid md:grid-cols-2 gap-y-8 md:gap-y-0 md:gap-x-12 text-left mb-8">
+            <div className="grid md:grid-cols-2 gap-y-8 md:gap-y-0 md:gap-x-12 text-left mb-8 animate-child">
                 <div className="bg-white p-6 rounded-2xl shadow-xl">
                     <img className="shadow-lg rounded-lg" src="https://framerusercontent.com/images/5UvqBQ5n4pQcYeXTayuwjKufJ0.svg" alt="insight-1" loading="lazy" />
                     <div className="flex items-center space-x-2.5 text-2xl my-2">

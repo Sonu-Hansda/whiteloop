@@ -6,20 +6,20 @@ import { RiUploadCloud2Fill } from "react-icons/ri"
 function Pricing() {
     const [isMonth, setIsMonth] = useState<boolean>(true);
     return (
-        <div className="p-8 rounded-2xl text-center mb-12">
+        <div className="p-8 rounded-2xl text-center mb-12 animate-container">
             <button className="flex mx-auto mb-6 items-center justify-center bg-white rounded-2xl px-4 py-2 border border-gray-300 gap-x-1.5">
                 <RiUploadCloud2Fill />
                 <span className="text-sm">Transparent Pricing, No Surprises</span>
             </button>
             <div className="mb-12">
-                <p className="text-5xl mb-3">Flexible Plans for All</p>
-                <p className="text-lg">Choose a plan that fits your goals and scale as you grow</p>
+                <p className="text-5xl mb-3 animate-child">Flexible Plans for All</p>
+                <p className="text-lg animate-child">Choose a plan that fits your goals and scale as you grow</p>
             </div>
             <div className="bg-white mx-auto mb-12 w-xs p-2 rounded-xl shadow-xl shadow-blue-950/40 flex">
                 <div className={`p-2 ${isMonth && 'bg-[#d8dfe5]'} rounded-lg w-1/2 cursor-pointer`} onClick={() => setIsMonth((prev) => !prev)}>Monthly</div>
                 <div className={`p-2 ${!isMonth && 'bg-[#d8dfe5]'} rounded-lg w-1/2 cursor-pointer`} onClick={() => setIsMonth((prev) => !prev)}>Yearly <span className="bg-white rounded-xl px-2.5 py-0.5">Save 30%</span></div>
             </div>
-            <div className="grid md:grid-cols-3 gap-8 text-start mb-8">
+            <div className="grid md:grid-cols-3 gap-8 text-start mb-8 animate-child">
                 <div className="w-full bg-[#f6fbff] p-4 rounded-xl shadow-lg">
                     <h5 className="mb-2 text-xl font-semibold">Starter</h5>
                     <h4 className="mb-8 text-4xl font-semibold">$9 <span className="text-sm font-normal">user/month</span></h4>
