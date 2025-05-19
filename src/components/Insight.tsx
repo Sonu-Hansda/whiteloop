@@ -16,7 +16,7 @@ function Insight() {
             </div>
             <div className="grid md:grid-cols-2 gap-y-8 md:gap-y-0 md:gap-x-12 text-left mb-8">
                 <div className="bg-white p-6 rounded-2xl shadow-xl">
-                    <img className="shadow-lg rounded-lg" src="https://framerusercontent.com/images/5UvqBQ5n4pQcYeXTayuwjKufJ0.svg" alt="insight-1" />
+                    <img className="shadow-lg rounded-lg" src="https://framerusercontent.com/images/5UvqBQ5n4pQcYeXTayuwjKufJ0.svg" alt="insight-1" loading="lazy" />
                     <div className="flex items-center space-x-2.5 text-2xl my-2">
                         <GoPulse className="text-violet-700" />
                         <h2 className="font-semibold">Real-Time Insights</h2>
@@ -24,7 +24,7 @@ function Insight() {
                     <p>Monitor your campaigns in real time to ensure maximum effectiveness and identify areas for improvement</p>
                 </div>
                 <div className="bg-white p-6 rounded-2xl shadow-xl">
-                    <img className="shadow-lg rounded-lg" src="https://framerusercontent.com/images/2pl18v1iDnPJHjcAuGIAPUrtYU.png?scale-down-to=1024" alt="insight-1" />
+                    <img className="shadow-lg rounded-lg" src="https://framerusercontent.com/images/2pl18v1iDnPJHjcAuGIAPUrtYU.png?scale-down-to=1024" alt="insight-1" loading="lazy" />
                     <div className="flex items-center space-x-2.5 text-2xl my-2">
                         <BsBarChartFill className="text-violet-600" />
                         <h2 className="font-semibold">Actionable Data</h2>

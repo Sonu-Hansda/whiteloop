@@ -35,6 +35,7 @@ function Navbar() {
         className="h-8"
         src="https://framerusercontent.com/images/on7xUpJ1SM94eAeiyf04v5F4rjQ.png "
         alt="Logo"
+        loading="lazy"
       />
 
       {/* Desktop Navigation */}

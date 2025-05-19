@@ -5,7 +5,7 @@ function Hero() {
     return (
         <div className="my-12 px-4">
             <div className="mx-auto p-2.5 rounded-lg shadow-lg w-24 border border-blue-800/10 drop-shadow-blue-800/75 drop-shadow-sm mb-6">
-                <img className="bg-[#0e1c29] p-2 rounded-sm" src="https://framerusercontent.com/images/Vw4SxE2qkEuKYpt0YYdU2kV6Irg.png" alt="Logo" />
+                <img className="bg-[#0e1c29] p-2 rounded-sm" src="https://framerusercontent.com/images/Vw4SxE2qkEuKYpt0YYdU2kV6Irg.png" alt="Logo" loading="lazy" />
             </div>
             <p className="hidden md:block text-7xl text-center mb-4">
                 Automate. Engage. Convert. <br />Powered by AI.
@@ -24,7 +24,7 @@ function Hero() {
                 <p>Learn More</p>
                 </button>
             </div>
-            <img className="mt-8" src="https://framerusercontent.com/images/Qs4fMRAik4VFOt3fiZeT875RV4.png" alt="What we do images" />
+            <img className="mt-8" src="https://framerusercontent.com/images/Qs4fMRAik4VFOt3fiZeT875RV4.png" alt="What we do images" loading="lazy" />
         </div>
     )
 }
