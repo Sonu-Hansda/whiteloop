@@ -11,11 +11,13 @@ function Insight() {
                 <span className="text-sm">Live Oversight</span>
             </button>
             <div className="mb-8">
-                <p className="text-4xl md:text-5xl mb-3 animate-child">Comprehensive Insights</p>
-                <p className="text-lg animate-child">Track every campaign and customer interaction to refine engagement strategies</p>
+                <p className="text-4xl md:text-5xl mb-3" data-aos="fade-up">Comprehensive Insights</p>
+                <p className="text-lg" data-aos="fade-up" data-aos-delay="100">
+                    Track every campaign and customer interaction to refine engagement strategies
+                </p>
             </div>
-            <div className="grid md:grid-cols-2 gap-y-8 md:gap-y-0 md:gap-x-12 text-left mb-8 animate-child">
-                <div className="bg-white p-6 rounded-2xl shadow-xl">
+            <div className="grid md:grid-cols-2 gap-y-8 md:gap-y-0 md:gap-x-12 text-left mb-8">
+                <div className="bg-white p-6 rounded-2xl shadow-xl" data-aos="fade-up">
                     <img className="shadow-lg rounded-lg" src="https://framerusercontent.com/images/5UvqBQ5n4pQcYeXTayuwjKufJ0.svg" alt="insight-1" loading="lazy" />
                     <div className="flex items-center space-x-2.5 text-2xl my-2">
                         <GoPulse className="text-violet-700" />
@@ -23,7 +25,7 @@ function Insight() {
                     </div>
                     <p>Monitor your campaigns in real time to ensure maximum effectiveness and identify areas for improvement</p>
                 </div>
-                <div className="bg-white p-6 rounded-2xl shadow-xl">
+                <div className="bg-white p-6 rounded-2xl shadow-xl" data-aos="fade-up" data-aos-delay="100">
                     <img className="shadow-lg rounded-lg" src="https://framerusercontent.com/images/2pl18v1iDnPJHjcAuGIAPUrtYU.png?scale-down-to=1024" alt="insight-1" loading="lazy" />
                     <div className="flex items-center space-x-2.5 text-2xl my-2">
                         <BsBarChartFill className="text-violet-600" />
@@ -33,36 +35,39 @@ function Insight() {
                 </div>
             </div>
             <div className="p-4 relative">
+                <div data-aos="fade-left">
+                    <div className="overflow-hidden whitespace-nowrap py-2">
+                        <div className="flex space-x-8 animate-scroll-left-right">
+                            {/* First copy */}
+                            <Chips text={'Personalize Engagement'} />
+                            <Chips text={'Realtime Reports'} />
+                            <Chips text={'Seamless Integrations'} />
+                            <Chips text={'Customer Retention'} />
 
-                <div className="overflow-hidden whitespace-nowrap py-2">
-                    <div className="flex space-x-8 animate-scroll-left-right">
-                        {/* First copy */}
-                        <Chips text={'Personalize Engagement'} />
-                        <Chips text={'Realtime Reports'} />
-                        <Chips text={'Seamless Integrations'} />
-                        <Chips text={'Customer Retention'} />
-
-                        {/* Second copy (duplicate) */}
-                        <Chips text={'Personalize Engagement'} />
-                        <Chips text={'Realtime Reports'} />
-                        <Chips text={'Seamless Integrations'} />
-                        <Chips text={'Customer Retention'} />
+                            {/* Second copy (duplicate) */}
+                            <Chips text={'Personalize Engagement'} />
+                            <Chips text={'Realtime Reports'} />
+                            <Chips text={'Seamless Integrations'} />
+                            <Chips text={'Customer Retention'} />
+                        </div>
                     </div>
                 </div>
 
-                <div className="overflow-hidden whitespace-nowrap py-8">
-                    <div className="flex space-x-8 animate-scroll-right-left">
-                        {/* First copy */}
-                        <Chips text={'Cost Effective'} />
-                        <Chips text={'Smart Spending'} />
-                        <Chips text={'Data-Driven Decisions'} />
-                        <Chips text={'Increased Efficiency'} />
+                <div data-aos="fade-right">
+                    <div className="overflow-hidden whitespace-nowrap py-8">
+                        <div className="flex space-x-8 animate-scroll-right-left">
+                            {/* First copy */}
+                            <Chips text={'Cost Effective'} />
+                            <Chips text={'Smart Spending'} />
+                            <Chips text={'Data-Driven Decisions'} />
+                            <Chips text={'Increased Efficiency'} />
 
-                        {/* Second copy (duplicate) */}
-                        <Chips text={'Cost Effective'} />
-                        <Chips text={'Smart Spending'} />
-                        <Chips text={'Data-Driven Decisions'} />
-                        <Chips text={'Increased Efficiency'} />
+                            {/* Second copy (duplicate) */}
+                            <Chips text={'Cost Effective'} />
+                            <Chips text={'Smart Spending'} />
+                            <Chips text={'Data-Driven Decisions'} />
+                            <Chips text={'Increased Efficiency'} />
+                        </div>
                     </div>
                 </div>
 
