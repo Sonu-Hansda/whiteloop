@@ -19,7 +19,7 @@ function Pricing() {
                 <div className={`p-2 ${isMonth && 'bg-[#d8dfe5]'} rounded-lg w-1/2 cursor-pointer`} onClick={() => setIsMonth((prev) => !prev)}>Monthly</div>
                 <div className={`p-2 ${!isMonth && 'bg-[#d8dfe5]'} rounded-lg w-1/2 cursor-pointer`} onClick={() => setIsMonth((prev) => !prev)}>Yearly <span className="bg-white rounded-xl px-2.5 py-0.5">Save 30%</span></div>
             </div>
-            <div className="grid grid-cols-3 gap-8 text-start mb-8">
+            <div className="grid md:grid-cols-3 gap-8 text-start mb-8">
                 <div className="w-full bg-[#f6fbff] p-4 rounded-xl shadow-lg">
                     <h5 className="mb-2 text-xl font-semibold">Starter</h5>
                     <h4 className="mb-8 text-4xl font-semibold">$9 <span className="text-sm font-normal">user/month</span></h4>
@@ -77,7 +77,7 @@ function Pricing() {
                     </div>
                 </div>
             </div>
-            <p className="w-xl mx-auto mb-3 bg-[#d8dfe5] text-center p-2.5 rounded-lg">We donate 2% of your membership to pediatric wellbeing</p>
+            <p className="md:w-xl mx-auto mb-3 bg-[#d8dfe5] text-center p-2.5 rounded-lg">We donate 2% of your membership to pediatric wellbeing</p>
         </div>
     )
 }
