@@ -4,10 +4,10 @@ import { TbHelpCircle } from "react-icons/tb"
 function Hero() {
   return (
     <div className="my-12 px-4">
-      <div data-aos="fade-up" className="mx-auto p-2.5 rounded-lg shadow-lg w-24 border border-blue-800/10 drop-shadow-blue-800/75 drop-shadow-sm mb-6">
+      <div data-aos="fade-up" className="mx-auto p-2.5 rounded-xs shadow-lg w-24 border-8 border-gray-800 drop-shadow-gray-800/75 drop-shadow-lg mb-6">
         <img
-          className="bg-[#0e1c29] p-2 rounded-sm"
-          src="https://framerusercontent.com/images/Vw4SxE2qkEuKYpt0YYdU2kV6Irg.png "
+          className="p-2 rounded-lg"
+          src="/logo.png"
           alt="Logo"
           loading="lazy"
         />
