@@ -5,7 +5,7 @@ import Insight from "./components/Insight"
 import Integration from "./components/Integration"
 import Navbar from "./components/Navbar"
 import Partners from "./components/Partners"
-import Pricing from "./components/Pricing"
+// import Pricing from "./components/Pricing"
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
      <Integration/>
      <Insight/>
      <Features/>
-     <Pricing/>
+     {/* <Pricing/> */}
      <Footer/>
     </main>
   )
