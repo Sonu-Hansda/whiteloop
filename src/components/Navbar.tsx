@@ -32,8 +32,8 @@ function Navbar() {
     >
       {/* Logo */}
       <img
-        className="h-8"
-        src="https://framerusercontent.com/images/on7xUpJ1SM94eAeiyf04v5F4rjQ.png "
+        className="h-8 w-14 md:w-16"
+        src="/logo.png"
         alt="Logo"
         loading="lazy"
       />

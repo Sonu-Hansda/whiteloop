@@ -6,7 +6,7 @@ function Footer() {
             <div className="flex flex-col-reverse  md:flex-col border-b border-gray-400 mb-6">
 
             <div className="flex flex-col md:flex-row md:justify-between mb-6">
-                <img className="h-24 md:h-8 w-24 md:w-auto object-contain mb-6" src="https://framerusercontent.com/images/on7xUpJ1SM94eAeiyf04v5F4rjQ.png" loading="lazy" />
+                <img className="h-8 w-14 md:w-16 object-contain mb-6" src="/logo.png" loading="lazy" />
                 <ul className="flex text-2xl space-x-4 text-gray-600">
                     <li>
                         <PiInstagramLogo />
