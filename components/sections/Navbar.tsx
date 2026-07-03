@@ -4,11 +4,11 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 const navLinks = [
-  { label: "Why Whiteloop", href: "#why" },
-  { label: "How It Works", href: "#how" },
-  { label: "Results", href: "#results" },
-  { label: "Pricing", href: "#pricing" },
-  { label: "Case Studies", href: "#case-studies" },
+  { label: "Why WhiteLoop", href: "/#why" },
+  { label: "How It Works", href: "/#how" },
+  { label: "Results", href: "/#results" },
+  { label: "Pricing", href: "/#pricing" },
+  { label: "Case Studies", href: "/#case-studies" },
 ];
 
 const Navbar = () => {
@@ -34,8 +34,10 @@ const Navbar = () => {
     >
       <div className="section-container flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
-        <a href="#" className="text-xl md:text-2xl font-display font-bold text-foreground tracking-tight">
-          Whiteloop <span className="neon-text">Media</span>
+        <a href="/" className="text-xl md:text-2xl font-display font-bold tracking-tight">
+          <span className="text-foreground">WHITELOOP </span>
+          <span className="text-primary">MEDIA</span>
+          <span className="text-foreground"> PRIVATE LIMITED</span>
         </a>
 
         {/* Desktop Menu */}

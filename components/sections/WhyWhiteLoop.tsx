@@ -57,7 +57,7 @@ const WhyWhiteLoop = () => {
             transition={{ duration: 0.6 }}
             className="lg:col-span-5 space-y-6"
           >
-            <div className="pill-badge">Why Whiteloop Media</div>
+            <div className="pill-badge">Why WhiteLoop Media</div>
             
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight font-display text-foreground">
               Why Founders Choose <span className="neon-text neon-glow">Whiteloop</span>
@@ -70,7 +70,7 @@ const WhyWhiteLoop = () => {
             <div className="border-t border-border/40 my-6 pt-6 space-y-4">
               {checklist.map((item, i) => (
                 <div key={i} className="flex items-center gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
+                  <CheckCircle2 className="w-5 h-5 text-primary shrink-0" />
                   <span className="text-sm font-semibold text-foreground/95">{item}</span>
                 </div>
               ))}

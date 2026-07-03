@@ -1,7 +1,7 @@
 const links = [
-  { label: "Why WhiteLoop", href: "#why" },
-  { label: "How It Works", href: "#how" },
-  { label: "Pricing", href: "#pricing" },
+  { label: "Why WhiteLoop", href: "/#why" },
+  { label: "How It Works", href: "/#how" },
+  { label: "Pricing", href: "/#pricing" },
   { label: "Contact", href: "mailto:hello@whiteloop.ai" },
 ];
 
@@ -10,8 +10,10 @@ const FooterSection = () => {
     <footer className="border-t border-border/30 py-12">
       <div className="section-container">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <a href="#" className="text-xl font-display font-bold text-foreground tracking-tight">
-            Whiteloop <span className="neon-text">Media</span>
+          <a href="/" className="text-xl font-display font-bold tracking-tight">
+            <span className="text-foreground">WHITELOOP </span>
+            <span className="text-primary">MEDIA</span>
+            <span className="text-foreground"> PRIVATE LIMITED</span>
           </a>
 
           <div className="flex flex-wrap items-center justify-center gap-6">
@@ -26,7 +28,7 @@ const FooterSection = () => {
         </div>
 
         <p className="text-center text-xs text-muted-foreground mt-8">
-          © {new Date().getFullYear()} Whiteloop Media. All rights reserved.
+          © {new Date().getFullYear()} WHITELOOP MEDIA PRIVATE LIMITED. All rights reserved.
         </p>
       </div>
     </footer>

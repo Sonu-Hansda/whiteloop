@@ -16,7 +16,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Whiteloop Media",
+  title: "WHITELOOP MEDIA PRIVATE LIMITED",
   description: "Next.js application with Lovable-inspired design",
 };
 
