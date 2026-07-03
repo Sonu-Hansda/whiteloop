@@ -5,6 +5,7 @@ import HowItWorks from "@/components/sections/HowItWorks";
 import WhyWhiteLoop from "@/components/sections/WhyWhiteLoop";
 import ResultsSection from "@/components/sections/ResultsSection";
 import PricingSection from "@/components/sections/PricingSection";
+import CaseStudySection from "@/components/sections/CaseStudySection";
 import FAQSection from "@/components/sections/FAQSection";
 import FinalCTA from "@/components/sections/FinalCTA";
 import FooterSection from "@/components/sections/FooterSection";
@@ -21,6 +22,7 @@ const Index = () => {
       <HowItWorks />
       <WhyWhiteLoop />
       <ResultsSection />
+      <CaseStudySection />
       <PricingSection />
       <FAQSection />
       <FinalCTA />
