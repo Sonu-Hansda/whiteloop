@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 const navLinks = [
-  { label: "Why WhiteLoop", href: "#why" },
+  { label: "Why Whiteloop", href: "#why" },
   { label: "How It Works", href: "#how" },
   { label: "Results", href: "#results" },
   { label: "Pricing", href: "#pricing" },
@@ -35,7 +35,7 @@ const Navbar = () => {
       <div className="section-container flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
         <a href="#" className="text-xl md:text-2xl font-display font-bold text-foreground tracking-tight">
-          White<span className="neon-text">Loop</span>
+          Whiteloop <span className="neon-text">Media</span>
         </a>
 
         {/* Desktop Menu */}

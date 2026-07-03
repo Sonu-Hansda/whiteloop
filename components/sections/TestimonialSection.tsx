@@ -120,6 +120,8 @@ const TestimonialCard = ({
     </p>
     <div className="mt-auto pt-5 flex items-center gap-3">
       <Image
+        width={30}
+        height={30}
         src={testimonial.image}
         alt={testimonial.name}
         className="h-10 w-10 rounded-full object-cover ring-2 ring-border/50"
